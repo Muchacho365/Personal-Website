@@ -1,32 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>SimonsDevHub</title>
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
 			rel="stylesheet"
 			href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,
 			wght@0,300..800;1,300..800&display=swap" />
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>SimonsDevHub</title>
 		<link rel="stylesheet" href="styles.css" />
-		<link rel="icon" type="image/jpg" href="images/favicon.jpg" />
 		<script src="scripts.js"></script>
+		<link rel="icon" type="image/jpg" href="#" />
 	</head>
 	<body>
 		<header>
-			<a href="#" class="logo-holder">
+			<a id="top" href="#top" class="logo-holder">
 				<div class="logo">S</div>
 				<div class="logo-text">SimonsDevHub</div>
 			</a>
 			<nav>
 				<ul id="menu">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Skills</a></li>
-					<li><a href="#">Projects</a></li>
-					<li><a href="#">Blog</a></li>
-					<li><a href="#" class="button">Contact Me</a></li>
+					<li><a href="#top">Home</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<!-- <li><a href="#">Blog</a></li> -->
+					<li><a href="mailto:mezampehsimon@gmail.com" class="button">Contact Me</a></li>
 				</ul>
 				<a href="#" class="mobile-toggle" onclick="toggleMobileMenu();">
 					<svg
@@ -41,8 +41,7 @@
 							stroke="currentColor"
 							stroke-linecap="round"
 							stroke-width="2"
-							d="M5 7h14M5 
-							12h14M5 17h14" />
+							d="M5 7h14M5 12h14M5 17h14" />
 					</svg>
 				</a>
 			</nav>
@@ -70,7 +69,9 @@
 						</p>
 						<div class="call-to-action">
 							<a href="#" class="button black">View Resume</a>
-							<a href="#" class="button white">Contact Me</a>
+							<a href="mailto:mezampehsimon@gmail.com" class="button white">
+								Contact Me
+							</a>
 						</div>
 						<div class="social-links"></div>
 						<a href="https://github.com/Mezampeh" target="_blank">
@@ -82,10 +83,7 @@
 					</div>
 				</div>
 				<div class="hero-yellow">
-					<img
-						src="images/avatar2.png"
-						alt="Simon Mezampeh"
-						width="100%" />
+					<img src="images/avatar2.png" alt="Simon Mezampeh" width="100%" />
 				</div>
 			</section>
 			<section class="logos container">
@@ -118,7 +116,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="skills container">
+			<section id="skills" class="skills container">
 				<h2>
 					<small>About Me</small>
 					Skills
@@ -154,10 +152,7 @@
 					<article>
 						<figure>
 							<div>
-								<img
-									src="images/avatar2.png"
-									alt="First Workspace"
-									width="100%" />
+								<img src="images/avatar2.png" alt="First Workspace" width="100%" />
 								<figcaption>First Workspace</figcaption>
 							</div>
 						</figure>
@@ -196,18 +191,18 @@
 					</article> -->
 				</div>
 			</section>
-			<section class="bento container">
+			<section id="projects" class="bento container">
 				<h2>
 					<small>Previous</small>
 					Completed Projects
 				</h2>
 				<div class="bento-grid">
-					<a href="#" class="bento-item">3</a>
 					<a href="#" class="bento-item">1</a>
-					<a href="#" class="bento-item">23</a>
-					<a href="#" class="bento-item">33</a>
-					<a href="#" class="bento-item">445</a>
-					<a href="#" class="bento-item">444</a>
+					<a href="#" class="bento-item">2</a>
+					<a href="#" class="bento-item">3</a>
+					<a href="#" class="bento-item">4</a>
+					<a href="#" class="bento-item">5</a>
+					<a href="#" class="bento-item">6</a>
 				</div>
 			</section>
 			<section class="chatbot container">
@@ -218,8 +213,8 @@
 				<div class="chatbot-blue">
 					<div class="chat-info">
 						<h3>Azure AI Chatbot</h3>
-						<p>An AI that know about me</p>
-						<p>You can download my resume</p>
+						<p>An AI that know about me ..</p>
+						<p>You can download my resume..</p>
 						<a href="#" class="button black">Download Resume</a>
 					</div>
 					<div class="chat-box">
@@ -229,7 +224,7 @@
 									<span class="avatar bot">AI</span>
 									<div class="message">
 										Hi am an AI bot to help you to get to know more about simon
-										mezampeh
+										mezampeh..
 									</div>
 								</li>
 								<li>
